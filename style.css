@@ -1,0 +1,91 @@
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 800px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 600px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 400px;
+    }
+  }
+
+
+body{
+    background-color: rgb(240, 240, 240);
+
+}
+h1, h2, h3 {
+
+    color:rgb(196, 22, 22);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+   
+}
+a{
+  text-decoration: none;
+  color:rgb(165, 121, 26);
+  font-size: larger;
+  transition: .5s;
+}
+p{
+    margin-bottom: 25px;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.card{
+    max-width: 700px;
+    background-color: rgb(248, 248, 231);
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 6px 8px 8px  rgb(204, 204, 198);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.button{
+    background-color: rgb(190, 173, 71);
+    width: 300;
+    padding: 10px;
+    border-radius: 10px;
+    color:rgb(248, 248, 247)
+}
+
+a:hover{
+    color:rgb(25, 22, 196);
+}
+
+.socials {
+    color:rgb(165, 26, 146);
+    text-decoration: none;
+    font-size: 200%;
+    text-align: center;
+}
+
+.socials a{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline{
+    padding: 40px;
+    list-style: none;
+    padding-left: 0px;
+}
